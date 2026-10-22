@@ -4,7 +4,7 @@
 
 项目地址：[workbuddy2api-panel](https://github.com/linguo2625469/workbuddy2api-panel)
 
-![面板截图](../_resources/3c164e881389ea2e98567470a9e577ac.png)
+![面板截图](_resources/3c164e881389ea2e98567470a9e577ac.png)
 
 ## 目录
 
@@ -26,7 +26,7 @@
 
 购买地址：[腾讯云轻量服务器](https://curl.qcloud.com/oyWDLkRJ)
 
-![服务器购买页](../_resources/a44036e94b99c3d134d35842f2f6e03b.png)
+![服务器购买页](_resources/a44036e94b99c3d134d35842f2f6e03b.png)
 
 ## 教程
 
@@ -47,7 +47,7 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 sudo docker run hello-world
 ```
 
-![Docker 安装成功](../_resources/59677cf0545fadf178335ebee2a02d7d.png)
+![Docker 安装成功](_resources/59677cf0545fadf178335ebee2a02d7d.png)
 
 ### 2. 部署项目
 
@@ -69,7 +69,7 @@ sudo curl -s http://localhost:7863/healthz
 # {"healthy":0,"total":0,"service":"workbuddy2api"}
 ```
 
-![部署成功](../_resources/8ff00aec30ba6f0ad9e2170f34307010.png)
+![部署成功](_resources/8ff00aec30ba6f0ad9e2170f34307010.png)
 
 ### 3. 浏览器登录
 
@@ -79,7 +79,7 @@ sudo curl -s http://localhost:7863/healthz
 http://服务器的IP:7863/panel/
 ```
 
-![登录面板](../_resources/feb72cc143b411373f3a85fe98169d32.png)
+![登录面板](_resources/feb72cc143b411373f3a85fe98169d32.png)
 
 ### 4. 查看密钥
 
@@ -87,11 +87,11 @@ http://服务器的IP:7863/panel/
 sudo grep -n "api_key" config.json
 ```
 
-![查看密钥](../_resources/0bf24c45836aa8128ec7cd9c801ee9be.png)
+![查看密钥](_resources/0bf24c45836aa8128ec7cd9c801ee9be.png)
 
 ### 5. 添加账号
 
-![添加账号](../_resources/7e2d8945bb72b318b5a376c661aed4a4.png)
+![添加账号](_resources/7e2d8945bb72b318b5a376c661aed4a4.png)
 
 如果提示失败，可以运行以下命令：
 
@@ -101,7 +101,7 @@ cd ~/workbuddy2api-panel && sudo chown -R 10001:10001 ./auths ./data ./config.js
 
 ### 6. 添加成功
 
-![添加成功](../_resources/017ccf98b3c5463d17ff728cd4493ff3.png)
+![添加成功](_resources/017ccf98b3c5463d17ff728cd4493ff3.png)
 
 ### 7. 使用
 
@@ -112,7 +112,7 @@ curl -sN http://服务器IP:7863/v1/chat/completions \
   -d '{"model":"deepseek-v4-flash","messages":[{"role":"user","content":"hi"}],"stream":true}'
 ```
 
-![调用测试](../_resources/b56810882157427e9f20fd5fff926857.png)
+![调用测试](_resources/b56810882157427e9f20fd5fff926857.png)
 
 #### Postman 一键导入格式
 
